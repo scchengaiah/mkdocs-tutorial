@@ -4,7 +4,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.tracking
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -28,6 +27,7 @@ theme:
       accent: lime
 plugins:
   - social
+  - search
 
 markdown_extensions:
   - pymdownx.highlight:

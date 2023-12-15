@@ -46,7 +46,23 @@ Refer to the [docs](./docs/) folder for information related to documentation.
 
 # Publishing to Github pages
 
+**Prerequisite:**
+
+> The repository has to be public to host github pages free. Upgrade plans provide us options to host a private repository.
+
 Create `ci.yml` inside `.github/workflows` folder that updates the documentation whenever latest changes are pushed to the repository.
+
+Go to the repository settings and configure Pages section as shown below. It should be noted that we will have the branch named `gh-pages` serving our content when the pipeline is executed.
+
+![](assets/20231215_190650_image.png)
+
+Now go to `Actions` and select your workflow `ci`.
+
+![](assets/20231215_190832_image.png)
+
+On selecting the pipeline executed and further drilling down, we can find the url on to which our documentation is hosted.
+
+![](assets/20231215_190937_image.png)
 
 # Troubleshooting
 
