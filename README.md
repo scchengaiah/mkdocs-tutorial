@@ -44,6 +44,8 @@ Refer to the [mkdocs.yml](./mkdocs.yml) file for more configuration information.
 
 Refer to the [docs](./docs/) folder for information related to documentation.
 
+# Publishing to Github pages
+
 # Troubleshooting
 
 ## Error - Required dependencies of "social" plugin not found
