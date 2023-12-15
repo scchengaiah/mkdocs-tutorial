@@ -46,6 +46,8 @@ Refer to the [docs](./docs/) folder for information related to documentation.
 
 # Publishing to Github pages
 
+Create `ci.yml` inside `.github/workflows` folder that updates the documentation whenever latest changes are pushed to the repository.
+
 # Troubleshooting
 
 ## Error - Required dependencies of "social" plugin not found
